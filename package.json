@@ -1,6 +1,7 @@
 {
   "name": "texcroft-dashboard",
   "version": "0.1.0",
+  "description": "Apparel sourcing and garment manufacturing operations platform (ERP) managing enquiries, dynamic costing BOMs, sampling gates, production tracking, quality control, packing, and client/factory portals.",
   "private": true,
   "scripts": {
     "dev": "next dev",

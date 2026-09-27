@@ -1,7 +1,6 @@
-# AGENTS.md — Texcroft OS Non-Negotiable Rules
+# AGENTS.md — Apparel OS Non-Negotiable Rules
 
-This file governs every model (Claude Opus, Gemini Flash, or any future model) that
-touches this repository. Read this file, then `docs/ARCHITECTURE.md`,
+This file governs development across this repository. Read this file, then `docs/ARCHITECTURE.md`,
 `docs/DATA_MODEL.md`, `docs/UI_SYSTEM.md`, `docs/BUSINESS_RULES.md`,
 `docs/BUILD_PROGRESS.md`, and `docs/HANDOFF.md`, **before writing any code**.
 
@@ -65,25 +64,19 @@ and in the buyer portal. There is one source of truth per fact.
     chart with a formatter prop, load the actual page in a browser (or
     `curl` it) — a clean `npm run build` is not sufficient proof it works.
 
-## 3. Model handoff protocol
+## 3. Engineering protocols
 
-- **If you are Claude (or another "foundation" model):** front-load
-  architecture correctness. Get the data model, permission system, layout,
-  design tokens, and calculation utilities right before producing repetitive
-  CRUD screens. It is fine to spend a disproportionate amount of effort here.
-- **If you are Gemini Flash (or another "continuation" model):** you are
-  extending an existing system, not designing a new one.
+- Front-load architecture correctness. Get the data model, permission system, layout,
+  design tokens, and calculation utilities right before producing repetitive screens.
+- Extend existing patterns rather than creating duplicates:
   - Do **not** introduce a second table component, a second date formatter, a
     second auth pattern, or a second design language.
-  - Do **not** "clean up" architecture you don't have full context on — flag
-    it in `docs/HANDOFF.md` instead and ask, or leave a dated note.
   - Follow the folder structure in `docs/ARCHITECTURE.md` exactly. New modules
     go where the pattern says they go.
   - Copy the shape of an existing, working module (e.g. `orders`) when
-    building a new one (e.g. `dispatch`), rather than inventing a new shape.
-- **Every session, regardless of model:** before stopping, update
-  `docs/BUILD_PROGRESS.md` (checklist state) and `docs/HANDOFF.md` (what
-  changed, what's next, known issues).
+    building a new one (e.g. `dispatch`).
+- **Every session:** before stopping, update `docs/BUILD_PROGRESS.md` (checklist state)
+  and `docs/HANDOFF.md` (what changed, what's next, known issues).
 
 ## 4. Data layer decision (read before touching Supabase)
 

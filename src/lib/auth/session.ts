@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import { profiles } from "@/lib/seed";
 import type { Profile } from "@/types";
 
-const SESSION_COOKIE = "texcroft-demo-role";
+const SESSION_COOKIE = "apparel-demo-role";
 const DEFAULT_PROFILE_ID = "user-admin";
 
 /**

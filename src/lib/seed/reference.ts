@@ -2,25 +2,25 @@ import type { Profile, Buyer, BuyerContact, Factory, Supplier } from "@/types";
 import { isoDate } from "./rng";
 
 export const profiles: Profile[] = [
-  { id: "user-admin", fullName: "Karthik Ramaswamy", email: "admin@texcroft.demo", role: "admin" },
-  { id: "user-mgmt", fullName: "Priya Natarajan", email: "management@texcroft.demo", role: "management" },
-  { id: "user-mrc-1", fullName: "Kranti Sharma", email: "kranti@texcroft.demo", role: "merchandiser" },
-  { id: "user-mrc-2", fullName: "Arjun Vellore", email: "arjun@texcroft.demo", role: "merchandiser" },
-  { id: "user-src", fullName: "Divya Chandran", email: "sourcing@texcroft.demo", role: "sourcing_manager" },
-  { id: "user-prod", fullName: "Manoj Pillai", email: "production@texcroft.demo", role: "production_manager" },
-  { id: "user-qc", fullName: "Lakshmi Iyer", email: "qc@texcroft.demo", role: "qc_inspector" },
-  { id: "user-fin", fullName: "Suresh Bala", email: "finance@texcroft.demo", role: "finance" },
+  { id: "user-admin", fullName: "Karthik Ramaswamy", email: "admin@apparel.demo", role: "admin" },
+  { id: "user-mgmt", fullName: "Priya Natarajan", email: "management@apparel.demo", role: "management" },
+  { id: "user-mrc-1", fullName: "Kranti Sharma", email: "kranti@apparel.demo", role: "merchandiser" },
+  { id: "user-mrc-2", fullName: "Arjun Vellore", email: "arjun@apparel.demo", role: "merchandiser" },
+  { id: "user-src", fullName: "Divya Chandran", email: "sourcing@apparel.demo", role: "sourcing_manager" },
+  { id: "user-prod", fullName: "Manoj Pillai", email: "production@apparel.demo", role: "production_manager" },
+  { id: "user-qc", fullName: "Lakshmi Iyer", email: "qc@apparel.demo", role: "qc_inspector" },
+  { id: "user-fin", fullName: "Suresh Bala", email: "finance@apparel.demo", role: "finance" },
   {
     id: "user-factory",
     fullName: "Ravi Kumar",
-    email: "factory@texcroft.demo",
+    email: "factory@apparel.demo",
     role: "factory_partner",
     factoryId: "factory-02",
   },
   {
     id: "user-buyer",
     fullName: "James Whitfield",
-    email: "buyer@texcroft.demo",
+    email: "buyer@apparel.demo",
     role: "buyer",
     buyerId: "buyer-01",
   },
@@ -210,7 +210,7 @@ export const buyerContacts: BuyerContact[] = buyers.map((b, i) => ({
 export const factories: Factory[] = [
   {
     id: "factory-01",
-    name: "Texcroft Unit 01",
+    name: "Manufacturing Unit 01",
     location: "Tiruppur, Tamil Nadu",
     contactName: "Senthil Kumar",
     contactPhone: "+91 98430 11234",
@@ -219,7 +219,7 @@ export const factories: Factory[] = [
   },
   {
     id: "factory-02",
-    name: "Texcroft Unit 02",
+    name: "Manufacturing Unit 02",
     location: "Tiruppur, Tamil Nadu",
     contactName: "Ravi Kumar",
     contactPhone: "+91 98430 55678",

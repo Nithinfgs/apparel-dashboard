@@ -11,7 +11,7 @@ export default async function PortalOrdersPage() {
 
   return (
     <div className="space-y-5">
-      <PageHeader title="Orders" description={`${orders.length} orders with Texcroft.`} />
+      <PageHeader title="Orders" description={`${orders.length} active orders in production.`} />
       <div className="space-y-3">
         {orders.map((o) => (
           <Link key={o.id} href={`/portal/orders/${o.id}`}>

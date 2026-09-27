@@ -5,8 +5,8 @@ export default function AskTexcroftPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-5">
       <PageHeader
-        title="Ask Texcroft"
-        description="Deterministic answers computed from live application data — not a general-purpose AI."
+        title="AI Operations Assistant"
+        description="Deterministic answers computed from live application data."
       />
       <AskPanel />
     </div>

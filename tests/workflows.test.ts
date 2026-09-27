@@ -467,7 +467,7 @@ describe("Workflow 6: Milestone Variance Tracking", () => {
 describe("Workflow 7: Factory Utilisation Planning Horizon", () => {
   const factory: Factory = {
     id: "fac-1",
-    name: "Texcroft Unit 1",
+    name: "Manufacturing Unit 1",
     location: "Tiruppur",
     contactName: "Murugan",
     contactPhone: "+91 98765 43210",

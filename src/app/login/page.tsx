@@ -15,7 +15,7 @@ export default function LoginPage() {
       <div className="w-full max-w-2xl space-y-6">
         <div className="text-center">
           <h1 className="text-2xl font-semibold tracking-tight text-foreground">
-            TEXCROFT <span className="font-normal text-muted-foreground">OS</span>
+            APPAREL <span className="font-normal text-muted-foreground">OS</span>
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">Sign in as a demo user to explore the platform.</p>
         </div>

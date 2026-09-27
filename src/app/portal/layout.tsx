@@ -15,7 +15,7 @@ export default async function PortalLayout({ children }: { children: React.React
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3 md:px-6">
           <div>
             <p className="text-sm font-semibold tracking-tight text-foreground">
-              TEXCROFT <span className="font-normal text-muted-foreground">Buyer Portal</span>
+              APPAREL <span className="font-normal text-muted-foreground">Buyer Portal</span>
             </p>
             <p className="text-xs text-muted-foreground">{buyer?.companyName ?? "Buyer"}</p>
           </div>

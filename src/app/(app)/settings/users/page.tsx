@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function UsersSettingsPage() {
   return (
     <div className="space-y-5">
-      <PageHeader title="Users" description="Everyone with access to Texcroft OS." />
+      <PageHeader title="Users" description="Everyone with access to the operations platform." />
       <Card>
         <CardContent className="divide-y divide-border p-0">
           {DEMO_PROFILES.map((p) => (

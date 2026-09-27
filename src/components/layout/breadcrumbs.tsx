@@ -12,7 +12,7 @@ export function Breadcrumbs() {
   const topLevel = "/" + (segments[0] ?? "");
   const navItem = ALL_NAV_ITEMS.find((item) => item.href === topLevel || pathname.startsWith(item.href));
 
-  const crumbs = [{ label: navItem?.label ?? "Texcroft OS", href: navItem?.href ?? "/dashboard" }];
+  const crumbs = [{ label: navItem?.label ?? "Apparel OS", href: navItem?.href ?? "/dashboard" }];
   if (segments.length > 1) {
     crumbs.push({ label: decodeURIComponent(segments[segments.length - 1]).replace(/-/g, " "), href: pathname });
   }

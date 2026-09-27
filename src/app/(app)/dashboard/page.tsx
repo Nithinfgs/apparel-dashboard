@@ -35,7 +35,7 @@ export default async function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      <PageHeader title="Command Center" description="Texcroft's operations at a glance — enquiry to dispatch." />
+      <PageHeader title="Command Center" description="Operations overview at a glance — enquiry to dispatch." />
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4 xl:grid-cols-4">
         <MetricCard label="Active Orders" value={kpis.activeOrders} />

@@ -29,7 +29,7 @@ export function Sidebar({ role }: { role: Role }) {
       <div className="flex h-14 items-center justify-between border-b border-sidebar-border px-4">
         {!collapsed && (
           <Link href="/dashboard" className="text-sm font-semibold tracking-tight text-sidebar-foreground">
-            TEXCROFT <span className="font-normal text-muted-foreground">OS</span>
+            APPAREL <span className="font-normal text-muted-foreground">OS</span>
           </Link>
         )}
         <Button variant="ghost" size="icon" className="h-7 w-7 shrink-0" onClick={() => setCollapsed((c) => !c)}>

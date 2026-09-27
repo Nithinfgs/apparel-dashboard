@@ -21,7 +21,7 @@ export function MobileNav({ role }: { role: Role }) {
       </SheetTrigger>
       <SheetContent side="left" className="w-64 p-0">
         <SheetTitle className="border-b border-border px-4 py-3.5 text-sm font-semibold">
-          TEXCROFT <span className="font-normal text-muted-foreground">OS</span>
+          APPAREL <span className="font-normal text-muted-foreground">OS</span>
         </SheetTitle>
         <nav className="space-y-4 overflow-y-auto px-2 py-4">
           {NAV_GROUPS.map((group, gi) => {

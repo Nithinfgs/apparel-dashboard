@@ -55,10 +55,10 @@ export function GlobalSearch() {
         </span>
         <kbd className="rounded border border-border bg-background px-1 py-0.5 text-[10px]">⌘K</kbd>
       </Button>
-      <CommandDialog open={open} onOpenChange={setOpen} title="Search Texcroft OS" description="Search orders, buyers, styles, suppliers, factories">
+      <CommandDialog open={open} onOpenChange={setOpen} title="Search Apparel OS" description="Search orders, buyers, styles, suppliers, factories">
         <CommandInput placeholder="Search orders, buyers, styles…" value={query} onValueChange={runSearch} />
         <CommandList>
-          <CommandEmpty>{query ? "No results found." : "Type to search across Texcroft OS."}</CommandEmpty>
+          <CommandEmpty>{query ? "No results found." : "Type to search across Apparel OS."}</CommandEmpty>
           {groups.map((group) => (
             <CommandGroup key={group} heading={group}>
               {results

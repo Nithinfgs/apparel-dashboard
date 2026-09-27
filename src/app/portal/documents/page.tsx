@@ -9,7 +9,7 @@ export default async function PortalDocumentsPage() {
 
   return (
     <div className="space-y-5">
-      <PageHeader title="Documents" description="Every file Texcroft has shared across your orders." />
+      <PageHeader title="Documents" description="Every file and document shared across your orders." />
       <Card>
         <CardContent>
           <DocumentList items={documents} />

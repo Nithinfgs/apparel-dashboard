@@ -11,7 +11,7 @@ export default async function PartnerLayout({ children }: { children: React.Reac
     <div className="flex min-h-screen flex-col bg-muted/30">
       <header className="border-b border-border bg-background px-4 py-3">
         <p className="text-sm font-semibold tracking-tight text-foreground">
-          TEXCROFT <span className="font-normal text-muted-foreground">Partner</span>
+          APPAREL <span className="font-normal text-muted-foreground">Partner</span>
         </p>
         <p className="text-xs text-muted-foreground">{factory?.name ?? "Factory"}</p>
       </header>

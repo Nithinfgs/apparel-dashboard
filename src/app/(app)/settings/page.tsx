@@ -15,7 +15,7 @@ export default function SettingsPage() {
             <CardTitle className="text-sm">Company</CardTitle>
           </CardHeader>
           <CardContent>
-            <DetailRow label="Company Name" value="Texcroft" />
+            <DetailRow label="Company Name" value="Apparel Manufacturing & Sourcing" />
             <DetailRow label="Location" value="Tiruppur / Coimbatore, Tamil Nadu" />
             <DetailRow label="Order Prefix" value={ORDER_PREFIX} />
           </CardContent>

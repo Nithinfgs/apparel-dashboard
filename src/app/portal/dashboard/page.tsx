@@ -16,7 +16,7 @@ export default async function PortalDashboardPage() {
 
   return (
     <div className="space-y-6">
-      <PageHeader title="Your Orders" description="A live view of every order Texcroft is producing for you." />
+      <PageHeader title="Your Orders" description="A live view of every order currently in production for you." />
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
         <MetricCard label="Active Orders" value={active.length} />

@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Texcroft OS",
-  description: "Texcroft's operations platform — enquiry to dispatch, in one system.",
+  title: "Apparel OS",
+  description: "Apparel sourcing and garment manufacturing operations platform — enquiry to dispatch, in one system.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

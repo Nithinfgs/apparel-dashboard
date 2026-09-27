@@ -104,7 +104,7 @@ export const NAV_GROUPS: NavGroup[] = [
     label: "Intelligence",
     items: [
       { label: "Analytics", href: "/analytics", icon: BarChart3, resource: "analytics" },
-      { label: "Ask Texcroft", href: "/ask-texcroft", icon: Sparkles, resource: "ask_texcroft" },
+      { label: "AI Assistant", href: "/ask-texcroft", icon: Sparkles, resource: "ask_texcroft" },
       { label: "Action Center", href: "/action-center", icon: ListChecks, resource: "action_center" },
     ],
   },
